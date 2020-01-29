@@ -1,0 +1,26 @@
+h1 {
+    color: Black;
+    width: 60%;
+    Margin: center;
+    Font-size: 2cm;
+}
+body {
+    Background: rgb(120, 120, 230);
+    width: 60%;
+    margin: 5% auto;
+}
+main {
+    background: white;
+    width: 60%;
+    margin: 5% auto;
+}
+article {
+margin: 1%;
+ Border: solid rgb(18, 214, 248) 2px;
+ Font-size: 0.5cm;
+}
+article > h3 {
+    Font-size: 1cm;
+    Color: white;
+    font-style: italic;
+}
