@@ -1,0 +1,29 @@
+.gallery{
+ display: flex;
+ flex-direction: row;
+ 
+}
+.container{
+    height: 400px;
+    width: 460px;
+}
+.container img{
+    height: 100%;
+    width: 100%;      
+}
+ body{
+    background-color: black;
+    color: white;
+ }
+.container1{
+    height: 100px;
+}
+Header{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Akronim', cursive;
+}
+h1{
+    Font-size: 30px;
+    font-family: 'Sriracha', cursive;
+}
