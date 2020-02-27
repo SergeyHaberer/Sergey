@@ -4,7 +4,7 @@ Body{
 }
 Main{
  height: 450px;
- Background-image: URL(../Images/nasa\ landing\ page.jpg);
+ Background-image: URL(/MyPortFolio/Images/nasa\ landing\ page.jpg);
  Color: white;
  font-family: 'Anton', cursive;
  background-repeat: no-repeat;
