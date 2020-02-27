@@ -2,12 +2,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-repeat: no-repeat;
     background-size: cover; 
-    background-image: url(../Images/Bgpic.jpg);
+    background-image: url(../../Images/Bgpic.jpg);
     
   }
   
   p{ 
-    font-size: 200%;
+    Font-size: 300px;
   }
   
   header {
@@ -22,7 +22,7 @@ body {
     width: 100%;
     display: grid;
     grid-template-columns: 30% 40% 30%;
-    color:red;
+    color: red;
   }
   
   nav > a {
@@ -90,13 +90,13 @@ body {
    @media (min-width : 320px) {
      body {
       font-family: Arial, Helvetica, sans-serif;
-      background-image: url(../Images/Bgpic.jpg);
+      background-image: url(../../Images/Bgpic.jpg);
       background-repeat: no-repeat;
       background-size: cover; 
      
      }
     p{ 
-      font-size: 100%;
+      font-size: 40px;
     }
     nav > a{
       margin: 2% 1% 3%;
