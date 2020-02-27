@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./src/styles/style.css">
+  <link rel="stylesheet" href="./src/styles/Animate.css">
   
   
   <title>My Portfolio</title>
@@ -13,19 +14,19 @@
 <html>
 <body>
   <header>
-<p>Sergey haberer</p>
+<p class="animated fadeInLeft">Sergey haberer</p>
     <nav> 
-    <a class="has-border">Contact Me</a>
-    <a href="./src/resume.html" class="has-border">My resume</a>
-    <a class="has-border">About Me</a>
-    <a href="./src/blog.html" class="has-border">My Blog</a>
+    <a class="has-border animated tada delay-1s slower">Contact Me</a>
+    <a href="./src/resume.html" class="has-border animated tada delay-2s slower">My resume</a>
+    <a class="has-border animated tada delay-3s slower">About Me</a>
+    <a href="./src/blog.html" class="has-border animated tada delay-4s slower">My Blog</a>
     </nav>
   </header>
   <main>
-    <img src="../MyPortFolio/Images/myprofilepic.jpg" id="profile-pic" alt="Headshot of Me">
-    <h1> Sergey David Haberer</h1>
-    <h2> Student of Web development</h2>
-    <button id="portfolio" onclick="window.location.href='./src/PortFolio.html';">Portfolio</button> 
+    <img class="animated fadeInRightBig faster" src="../MyPortFolio/Images/myprofilepic.jpg" id="profile-pic" alt="Headshot of Me">
+    <h1 class="animated fadeInUpBig slow"> Sergey David Haberer</h1>
+    <h2 class="animated fadeInUpBig slow"> Student of Web development</h2>
+    <button class="animated jello infinite" id="portfolio" onclick="window.location.href='./src/PortFolio.html';">Portfolio</button> 
   </main>
 </body>
 </html>
