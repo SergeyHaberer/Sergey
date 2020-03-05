@@ -1,0 +1,29 @@
+header{
+ background-image: url(/MyPortFolio/Images/Portfolio\ Header\ BG.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ Font-size: 100px;
+ text-align: center;
+}
+main{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-template-rows: 1fr 6fr;
+ grid-auto-flow: column;
+ background-image: url(/MyPortFolio/Images/Portfolio\ Projects\ BG.png);
+ background-size: auto;
+ height: 542px;
+}
+.links{
+    width: 100%;
+}
+h1{
+font-size: 50px;
+text-align: center;
+color: rgb(85, 26, 139);
+}
+a.has-border{
+    border: 5px double;
+    padding: 20px 0px;
+    margin: 20px 0px;
+}
