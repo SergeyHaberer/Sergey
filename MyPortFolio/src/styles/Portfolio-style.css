@@ -1,0 +1,48 @@
+
+header{
+ background-image: url(/MyPortFolio/Images/Portfolio\ Header\ BG.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ Font-size: 100px;
+ text-align: center;
+}
+main{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-template-rows: 1fr 3fr;
+ grid-auto-flow: column;
+ background-image: url(/MyPortFolio/Images/Portfolio\ Projects\ BG.png);
+ background-size: cover;
+ height: 300px;
+ text-shadow: white 2px 2px;
+ color:  rgb(85, 26, 139)
+}
+.links{
+   display: flex;
+   flex-wrap: wrap;
+   width: 90%;
+}
+h1{
+font-size: 50px;
+text-align: center;
+color: rgb(85, 26, 139);
+}
+.has-border{
+    border: 5px double;
+    margin: 1%;
+    height: 25px;
+}
+
+footer{
+    background-color: red;
+    background-image: url(/MyPortFolio/Images/Portfolio\ Footer\ BG.jpg);
+    background-size: cover;
+    height: 336px;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: white 1px 1px;
+    Height: 400px;
+}
+.contact{
+    font-size: 20px;
+}
