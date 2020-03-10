@@ -1,0 +1,36 @@
+header{
+    background-image: url(/MyPortFolio/Images/about\ me\ header.jpg);
+    font-size: 100px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    Text-shadow: black 5px 5px;
+    
+}
+main{
+    background-image: url(/MyPortFolio/Images/about\ me\ main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+h2{
+ Font-size: 40px;
+ text-align: center;
+}
+h3{
+    font-size: 20px;
+}
+hr{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 10px;
+    border-color: blue;
+}
