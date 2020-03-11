@@ -1,0 +1,57 @@
+
+    header{
+        background-image: url(/MyPortFolio/Images/contact\ page\ header.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        font-size: 100px;
+        text-align: center;
+    }
+    main{
+        background-image: url(/MyPortFolio/Images/contactpagemain.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       color: white;
+    }
+    div{
+        text-align: center;
+        font-size: 30px;
+    }
+    p{
+        text-align: left;
+        font-size: 20px;
+    }
+    hr{
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 10px;
+        border-color: blue;
+    }
+    footer{
+        background-image: url(/MyPortFolio/Images/about\ me\ header.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        color: white;
+        height: 350px;
+    }
+    
+
+   
+   /* Medium and up (Tablets) */
+   @media (min-width: 768px) {
+   
+   }
+   
+   /* Large and up (Desktops) */
+   @media (min-width: 992px) {
+   footer{
+       height: 201px;
+   }
+   }
+
+
